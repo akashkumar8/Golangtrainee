@@ -18,6 +18,9 @@ func main() {
 	}
 	for start < 100 {
 		start += start
+		if start == 32 {
+			continue
+		}
 		fmt.Println("START is now: ", start)
 	}
 
